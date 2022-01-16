@@ -163,9 +163,9 @@ def logo():
 	os.system("clear")
 	print("""%s
    ____________________
-  l.          BMBF     l
-  l. sc:ricode mbokey l
-  l. by:mbokey       l
+  l.        BMBF       l
+  l. sc:ricode mbokey  l
+  l. by:mbokey         l
   l.        GENS       l
   l____________________l """%(O))
    
