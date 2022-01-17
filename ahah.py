@@ -163,11 +163,11 @@ def logo():
 	os.system("clear")
 	print("""%s
    ____________________
-  |  | GENZ  CRACK    |  |
-  |  | GENZ  CRACK    |  |
-  |  | GENZ CRACK     |  |
-  |  | GENZ. CRACK    |  |  
-  l_____________________l """%(O))
+  |  | GENZ  CRACK  |  |
+  |  | GENZ  CRACK  |  |
+  |  | GENZ  CRACK  |  |
+  |  | GENZ. CRACK  |  |  
+  |____________________|"""%(O))
    
 ### BAGIAN LOGIN ###
 def tokenz():
