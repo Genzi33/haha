@@ -614,45 +614,45 @@ def cek_apk(coki):
 
 ### CEK HASIL ### 
 def cekhasil():
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	print(' %s[%s1%s]. %slihat hasil crack %sOK '%(O,H,O,N,H))
 	print(' %s[%s2%s]. %slihat hasil crack %sCP '%(O,H,O,N,K))
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	anjg = input(' %s[%s?%s] %spilih : '%(O,H,O,N))
 	if anjg == '':
 		menu()
 	elif anjg == "1":
 		dirs = os.listdir("OK")
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		for file in dirs:
 			print(" %s[%s*%s] %s> %s"%(O,H,O,N,file))
 		try:
-			print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+			print('%s------------------------------------------------------------------------'%(O))
 			file = input(" %s[%s?%s] %sfile : %s"%(O,H,O,N,H))
 			if file == "":
 				menu()
 			totalok = open("%sOK/%s"%(H,file)).read().splitlines()
 		except IOError:
 			exit(" %s[%s!%s] %sfile %s tidak tersedia"%(O,H,O,N,file))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		os.system("%scat OK/%s"%(H,file))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		input(" %s[%s*%s] %stekan enter untuk kembali ke menu"%(O,H,O,N))
 		menu()
 	elif anjg == "2":
 		dirs = os.listdir("CP")
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		for file in dirs:
 			print(" %s[%s*%s] %s> %s"%(O,H,O,N,file))
 		try:
-			print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+			print('%s------------------------------------------------------------------------'%(O))
 			file = input(" %s[%s?%s] %sfile :%s "%(O,H,O,N,H))
 			if file == "":
 				menu()
 			totalcp = open("%sCP/%s"%(K,file)).read().splitlines()
 		except IOError:
 			exit(" %s[%s!%s] %sfile %s tidak tersedia"%(O,H,O,N,file))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		os.system("%scat CP/%s"%(K,file))
 		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
 		input(" %s[%s*%s] %stekan enter untuk kembali ke menu "%(O,H,O,N))
@@ -717,7 +717,7 @@ def publik():
 	idt=input("\n %s[%s?%s] %smasukkan id :%s "%(O,H,O,N,O))
 	if idt in[""]:
 		menu()
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	print(" %s[%s1%s] %scrack all id   %s[%s2%s] %scrack id old"%(O,H,O,N,O,H,O,N))
 	ask=input(" %s[%s?%s] %spilih :%s "%(O,H,O,N,H))
 	if ask in[""]:
@@ -754,7 +754,7 @@ def publik():
 		
 ### ATUR SANDI ###
 def atursandi():
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	print(" %s[%s1%s] %sotomatis  %s[%s2%s] %smanual  %s[%s3%s] %sgabungkan"%(O,H,O,N,O,K,O,N,O,U,O,N))
 	ask=input(" %s[%s?%s] %spilih :%s "%(O,H,O,N,H))
 	if ask in[""]:
@@ -769,7 +769,7 @@ def atursandi():
 		exit()
 
 def munculopsi():
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	print(" %s[%s1%s] %smunculkan opsi  %s[%s2%s] %sjangan munculkan"%(O,H,O,N,O,K,O,N))
 	ask=input(" %s[%s?%s] %spilih :%s "%(O,H,O,N,H))
 	if ask in[""]:
@@ -784,19 +784,19 @@ def munculopsi():
 ### OTOMATIS ###
 def otomatis():
 	munculopsi()
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	print(" %s[%s1%s]. %smetode API [%sfast%s]"%(O,H,O,N,O,N))
 	print(" %s[%s2%s]. %smetode mbasic [%sslow%s]"%(O,H,O,N,U,N))
 	print(" %s[%s3%s]. %smetode mobile [%svery slow%s]"%(O,H,O,N,K,N))
 	print(" %s[%s4%s]. %smetode graph [%ssuper slow hef%s]"%(O,H,O,N,H,N))
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	ask=input(" %s[%s?%s] %spilih :%s "%(O,H,O,N,H))
 	if ask=="":
 		exit(" %s[!] isi jawaban dengan benar!"%(M))
 	elif ask=="1":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -810,7 +810,7 @@ def otomatis():
 	elif ask=="2":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -824,7 +824,7 @@ def otomatis():
 	elif ask=="3":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -838,7 +838,7 @@ def otomatis():
 	elif ask=="4":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -853,26 +853,26 @@ def otomatis():
 ### MANUAL ###
 def manual():
 	munculopsi()
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	print(" %s[%s!%s] %sgunakan , (%skoma%s) sebagai pemisah"%(O,H,O,N,O,N))
 	pwek=input(' %s[%s?%s] %sbuat kata sandi :%s '%(O,H,O,N,H))
 	if pwek=="":
 		exit(" %s[!] isi jawaban dengan benar!"%(M))
 	elif len(pwek)<=5:
 		exit(" %s[!] masukan sandi minimal 6 angka!"%(M))
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	print(" %s[%s1%s]. %smetode API [%sfast%s]"%(O,H,O,N,O,N))
 	print(" %s[%s2%s]. %smetode mbasic [%sslow%s]"%(O,H,O,N,U,N))
 	print(" %s[%s3%s]. %smetode mobile [%svery slow%s]"%(O,H,O,N,K,N))
 	print(" %s[%s4%s]. %smetode graph [%ssuper slow hef%s]"%(O,H,O,N,H,N))
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	ask=input(" %s[%s?%s] %spilih :%s "%(O,H,O,N,H))
 	if ask=="":
 		exit(" %s[!] isi jawaban dengan benar!"%(M))
 	elif ask=="1":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -881,7 +881,7 @@ def manual():
 	elif ask=="2":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -890,7 +890,7 @@ def manual():
 	elif ask=="3":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -899,7 +899,7 @@ def manual():
 	elif ask=="4":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -913,7 +913,7 @@ def manual():
 ### GABUNGAN ###
 def gabungkan():
 	munculopsi()
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	print(" %s[%s!%s] %ssandi bawaan %snama123,1234,12345,sayang,kontol,anjing"%(O,H,O,N,H))
 	print(" %s[%s!%s] %sgunakan , (%skoma%s) sebagai pemisah"%(O,H,O,N,O,N))
 	pwek=input(' %s[%s?%s] %ssandi gabungan :%s '%(O,H,O,N,H))
@@ -921,19 +921,19 @@ def gabungkan():
 		exit(" %s[!] isi jawaban dengan benar!"%(M))
 	elif len(pwek)<=5:
 		exit(" %s[!] masukan sandi minimal 6 angka!"%(M))
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	print(" %s[%s1%s]. %smetode API [%sfast%s]"%(O,H,O,N,O,N))
 	print(" %s[%s2%s]. %smetode mbasic [%sslow%s]"%(O,H,O,N,U,N))
 	print(" %s[%s3%s]. %smetode mobile [%svery slow%s]"%(O,H,O,N,K,N))
 	print(" %s[%s4%s]. %smetode graph [%ssuper slow hef%s]"%(O,H,O,N,H,N))
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%s------------------------------------------------------------------------'%(O))
 	ask=input(" %s[%s?%s] %spilih :%s "%(O,H,O,N,H))
 	if ask=="":
 		exit(" %s[!] isi jawaban dengan benar!"%(M))
 	elif ask=="1":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -947,7 +947,7 @@ def gabungkan():
 	elif ask=="2":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -961,7 +961,7 @@ def gabungkan():
 	elif ask=="3":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
@@ -975,7 +975,7 @@ def gabungkan():
 	elif ask=="4":
 		print(' %s[%s+%s] %shasil %sOK %sdisimpan ke -> %sok.txt'%(O,H,O,N,H,N,H))
 		print(' %s[%s+%s] %shasil %sCP %sdisimpan ke -> %scp.txt'%(O,K,O,N,K,N,K))
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%s------------------------------------------------------------------------'%(O))
 		with ThreadPoolExecutor(max_workers=30) as fall:
 			for user in id:
 				uid, name = user.split("<=>")
