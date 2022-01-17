@@ -178,7 +178,7 @@ def tokenz():
 	except (KeyError, IOError):
 		os.system('clear')
 		logo()
-		print('Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€')
+		print('Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€')
 		token = input(' [?] token : ')
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
@@ -230,18 +230,18 @@ def menu():
         exit(" %s[!] anda tidak terhubung ke internet!"%(M))
 
     logo()
-    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€€'%(O))
+    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
     print(' %s[%s+%s] %sAuhtor Script : %sMbokey Bhizer X Reall'%(O,H,O,N,K))
-    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€Ï€'%(O))
+    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
     print(" %s[%s+%s] %sNama        : %s"%(O,H,O,N,mbokey))
     print(" %s[%s+%s] %sID          : %s"%(O,H,O,N,ganteng))
     print(" %s[%s+%s] %sKey         : %s"%(O,H,O,N,key))
  #   print(" %s[%s+%s] %sTgl. Lahir  : %s"%(O,H,O,N,ttl))
-    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€€Ï€Ï€Ï€'%(O))
+    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
     print(" %s[%s+%s] %sMasa berlaku : %s-%s"%(O,H,O,N,buulan,ttgal))
     print(" %s[%s+%s] %sIP address   : %s"%(O,H,O,N,IP_address))
     print(" %s[%s+%s] %sNegara Anda  : %s"%(O,H,O,N,negara))
-    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€€Ï€Ï€'%(O))
+    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
     print(" %s[%s1%s]. %scrack teman/publik"%(O,H,O,N))
     print(" %s[%s2%s]. %sCrack Masaal [%s10%s]"%(O,H,O,N,H,N))
     print(" %s[%s3%s]. %sCrack Follow publik"%(O,H,O,N))
@@ -251,7 +251,7 @@ def menu():
     print(" %s[%s7%s]. %scek opsi akun cp"%(O,H,O,N))
     print(" %s[%s8%s]. %slihat hasil crack"%(O,H,O,N))
     print(" %s[%s0%s]. %slogout %s(%shapus token%s)"%(O,H,O,N,O,M,O))
-    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+    print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
     asw = input(" %s[%s?%s] %spilih menu : %s"%(O,H,O,N,H))
     if asw == "":
     	menu()
@@ -273,7 +273,7 @@ def menu():
     	follow()
     elif asw == "0":
     	os.system('rm -f token.txt')
-    	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+    	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
     	jalan(" %s[%sâœ“%s] %sberhasil menghapus token "%(O,H,O,N))
     	exit()
     else:
@@ -281,7 +281,7 @@ def menu():
     	menu() 
  
 def gantiua():
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
 	ajg = input(" %s[%s?%s] %smasukan ua : %s"%(O,H,O,N,H))
 	if ajg in[""]:
 		menu()
@@ -290,7 +290,7 @@ def gantiua():
 			zedd = open('ugent.txt', 'w')
 			zedd.write(ajg)
 			zedd.close()
-			print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+			print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
 			print(" %s[%sâœ“%s] %sberhasil mengganti ua"%(O,H,O,H))
 			input(" %s[%s*%s] %stekan enter untuk kembali ke menu"%(O,H,O,N))
 			menu()
@@ -447,10 +447,10 @@ def Mbokey():
 ### CEK OPSI ###
 def cekopsi():
 	dirs = os.listdir("CP")
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
 	for file in dirs:
 		print(" %s[%s*%s] %sCP/%s"%(O,H,O,K,file))
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
 	files = input(" %s[%s?%s] %sfile  :%s "%(O,H,O,N,K))
 	if files == "":
 		menu()
@@ -460,7 +460,7 @@ def cekopsi():
 		exit("\n %s[%s!%s] %snama file %s tidak tersedia"%(O,H,O,N,files))
 	ubahpw()
 	print('\n %s[%s!%s] %sanda bisa mematikan data selular untuk menjeda proses cek'%(O,H,O,N))
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
 	for memek in buka_baju:
 		kontol = memek.replace("\n","")
 		titid  = kontol.split("|")
@@ -469,14 +469,14 @@ def cekopsi():
 			cek_opsi(titid[0].replace("  * --> ",""), titid[1])
 		except requests.exceptions.ConnectionError:
 			pass
-		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+		print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
 	print("\n %s[%s!%s] %scek akun sudah selesai..."%(O,H,O,N))
 	input(" %s[%s*%s] %stekan enter untuk kembali ke menu "%(O,H,O,N))
 	time.sleep(1)
 	menu()
 
 def ubahpw():
-	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€'%(O))
+	print('%sÏ€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€Ï€ÏÏ€Ï€'%(O))
 	pw=input(" %s[%s?%s] %subah sandi tap yes?%s[%sY/t%s]%s: %s"%(O,H,O,N,O,N,O,N,H))
 	if pw == "Y" or pw == "y":
 		ubahP.append("y")
