@@ -166,7 +166,7 @@ def logo():
    | | __  _ __.  ___   | | __
    | |/ / | '__| / _ \  | |/ /
    |   <  | |    | __/  |   <
-   |_|\_\ |_|     \___| |_|\_\     """%(O))
+   |_|\_\ |_|   \___|   |_|\_\     """%(O))
    
 ### BAGIAN LOGIN ###
 def tokenz():
@@ -242,13 +242,13 @@ def menu():
     print(" %s[%s+%s] %sNegara Anda  : %s"%(O,H,O,N,negara))
     print('%s-----------------------------------------------------------------'%(O))
     print(" %s[%s1%s]. %scrack teman/publik😎"%(O,H,O,N))
-    print(" %s[%s2%s]. %sCrack Masaal [%s10%s]😂"%(O,H,O,N,H,N))
-    print(" %s[%s3%s]. %sCrack Follow publik😭"%(O,H,O,N))
-    print(" %s[%s4%s]. %ssetting user agent😛"%(O,H,O,N))
-    print(" %s[%s5%s]. %sGed data target🤔"%(O,H,O,N))
-    print(" %s[%s6%s]. %sInfo Script Crack Fb😁"%(O,H,O,N))
-    print(" %s[%s7%s]. %scek opsi akun cp🥵"%(O,H,O,N))
-    print(" %s[%s8%s]. %slihat hasil crack🥶"%(O,H,O,N))
+    print(" %s[%s2%s]. %sCrack Masaal [%s10%s]😜"%(O,H,O,N,H,N))
+    print(" %s[%s3%s]. %sCrack Follow publik🤣"%(O,H,O,N))
+    print(" %s[%s4%s]. %ssetting user agent COK😁"%(O,H,O,N))
+    print(" %s[%s5%s]. %sGed data target😝"%(O,H,O,N))
+    print(" %s[%s6%s]. %sInfo Script Crack Fb😉"%(O,H,O,N))
+    print(" %s[%s7%s]. %scek opsi akun cp😐"%(O,H,O,N))
+    print(" %s[%s8%s]. %slihat hasil crack😶"%(O,H,O,N))
     print(" %s[%s0%s]. %slogout %s(%shapus token%s)"%(O,H,O,N,O,M,O))
     print('%s-----------------------------------------------------------------'%(O))
     asw = input(" %s[%s?%s] %spilih menu : %s"%(O,H,O,N,H))
