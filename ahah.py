@@ -162,12 +162,11 @@ def jalan(z):
 def logo():
 	os.system("clear")
 	print("""%s
-   ____________________
-  |  | GENZ  CRACK  |  |
-  |  | GENZ  CRACK  |  |
-  |  | GENZ  CRACK  |  |
-  |  | GENZ. CRACK  |  |  
-  |____________________|"""%(O))
+    _.                       _
+   | | __  _ __.   ___  | | __
+   | |/ /. | '__|. / _ \  | |/ /
+   |   <.  |  |.   |  __/  |   <
+   |_|\_\ |_|     \___| |_|\_\     """%(O))
    
 ### BAGIAN LOGIN ###
 def tokenz():
@@ -178,7 +177,7 @@ def tokenz():
 	except (KeyError, IOError):
 		os.system('clear')
 		logo()
-		print('------------------------------------------------------------------------')
+		print('-----------------------------------------------------------------')
 		token = input(' [?] token : ')
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
@@ -230,18 +229,18 @@ def menu():
         exit(" %s[!] anda tidak terhubung ke internet!"%(M))
 
     logo()
-    print('%s------------------------------------------------------------------------'%(O))
+    print('%s-----------------------------------------------------------------'%(O))
     print(' %s[%s+%s] %sAuhtor Script : %sMbokey Bhizer X Reall'%(O,H,O,N,K))
-    print('%s------------------------------------------------------------------------'%(O))
+    print('%s-----------------------------------------------------------------'%(O))
     print(" %s[%s+%s] %sNama        : %s"%(O,H,O,N,mbokey))
     print(" %s[%s+%s] %sID          : %s"%(O,H,O,N,ganteng))
     print(" %s[%s+%s] %sKey         : %s"%(O,H,O,N,key))
  #   print(" %s[%s+%s] %sTgl. Lahir  : %s"%(O,H,O,N,ttl))
-    print('%s------------------------------------------------------------------------'%(O))
+    print('%s-----------------------------------------------------------------'%(O))
     print(" %s[%s+%s] %sMasa berlaku : %s-%s"%(O,H,O,N,buulan,ttgal))
     print(" %s[%s+%s] %sIP address   : %s"%(O,H,O,N,IP_address))
     print(" %s[%s+%s] %sNegara Anda  : %s"%(O,H,O,N,negara))
-    print('%s------------------------------------------------------------------------'%(O))
+    print('%s-----------------------------------------------------------------'%(O))
     print(" %s[%s1%s]. %scrack teman/publik"%(O,H,O,N))
     print(" %s[%s2%s]. %sCrack Masaal [%s10%s]"%(O,H,O,N,H,N))
     print(" %s[%s3%s]. %sCrack Follow publik"%(O,H,O,N))
@@ -251,7 +250,7 @@ def menu():
     print(" %s[%s7%s]. %scek opsi akun cp"%(O,H,O,N))
     print(" %s[%s8%s]. %slihat hasil crack"%(O,H,O,N))
     print(" %s[%s0%s]. %slogout %s(%shapus token%s)"%(O,H,O,N,O,M,O))
-    print('%s------------------------------------------------------------------------'%(O))
+    print('%s-----------------------------------------------------------------'%(O))
     asw = input(" %s[%s?%s] %spilih menu : %s"%(O,H,O,N,H))
     if asw == "":
     	menu()
@@ -273,7 +272,7 @@ def menu():
     	follow()
     elif asw == "0":
     	os.system('rm -f token.txt')
-    	print('%s------------------------------------------------------------------------'%(O))
+    	print('%s-----------------------------------------------------------------'%(O))
     	jalan(" %s[%sâœ“%s] %sberhasil menghapus token "%(O,H,O,N))
     	exit()
     else:
@@ -281,7 +280,7 @@ def menu():
     	menu() 
  
 def gantiua():
-	print('%s------------------------------------------------------------------------'%(O))
+	print('%s-----------------------------------------------------------------'%(O))
 	ajg = input(" %s[%s?%s] %smasukan ua : %s"%(O,H,O,N,H))
 	if ajg in[""]:
 		menu()
@@ -290,7 +289,7 @@ def gantiua():
 			zedd = open('ugent.txt', 'w')
 			zedd.write(ajg)
 			zedd.close()
-			print('%s------------------------------------------------------------------------'%(O))
+			print('%s-----------------------------------------------------------------'%(O))
 			print(" %s[%sâœ“%s] %sberhasil mengganti ua"%(O,H,O,H))
 			input(" %s[%s*%s] %stekan enter untuk kembali ke menu"%(O,H,O,N))
 			menu()
